@@ -79,7 +79,45 @@ The application contains:
 
 ### Setup Backend (Flask)
 
-1. **Navigate to the Backend Directory**
+1. **Create a Virtual Environment (optional but recommended)**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+
+2. **Navigate to the Backend Directory**
 
    ```bash
    cd backend
+3. **Install Python Dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+
+4. **Run the Flask Server**
+   ```bash
+   python app.py
+
+The Flask API will be running on http://127.0.0.1:5000.
+
+### Setup Frontend (React)
+
+1. **Navigate to the Frontend Directory**
+     ```bash
+   cd frontend
+
+3. **Install Node.js Dependencies**
+    ```bash
+   npm install
+   
+
+5. **Start the React Application**
+   ```bash
+   npm run dev
+The React application will be available at http://localhost:3000.
+
+
+
+
+
