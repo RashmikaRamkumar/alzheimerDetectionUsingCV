@@ -115,7 +115,7 @@ The Flask API will be running on http://127.0.0.1:5000.
 5. **Start the React Application**
    ```bash
    npm run dev
-The React application will be available at http://localhost:3000.
+The React application will be available at http://localhost:5173.
 
 
 
