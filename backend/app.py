@@ -7,7 +7,7 @@ from flask_cors import CORS
 import cv2
 
 app = Flask(__name__)
-CORS(app, resources={r"/predict": {"origins": "http://localhost:5173"}})
+CORS(app, resources={r"/predict": {"origins": "https://alzheimerdetectionusingcvfrontend.onrender.com"}})
 
 # Load your trained model
 model = load_model("model/alzheimer_model.h5")
