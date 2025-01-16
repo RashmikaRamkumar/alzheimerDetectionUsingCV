@@ -9,8 +9,6 @@ This project is a web application designed to assist in the prediction of Alzhei
 - [Approach: Computer Vision and CNN](#approach-computer-vision-and-cnn)
 - [Application Structure and Functionality](#application-structure-and-functionality)
 - [How to Run the Application](#how-to-run-the-application)
-- [Future Enhancements](#future-enhancements)
-- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -85,7 +83,6 @@ The application contains:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
 
 2. **Navigate to the Backend Directory**
 
