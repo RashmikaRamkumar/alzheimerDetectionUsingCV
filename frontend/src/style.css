@@ -1,0 +1,53 @@
+/* Import Gentium font */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&display=swap');
+
+body {
+    font-family: 'Gentium Book Basic', serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.upload-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: center;
+}
+
+h1 {
+    color: #333399; /* Color for Alzheimer Disease Detection title */
+}
+
+input[type="file"] {
+    margin: 10px 0;
+    color: #333; /* Change file name text color */
+    width: 100%; /* Make the input take full width */
+    max-width: 300px; /* Set a max width */
+    padding: 10px; /* Increase padding to make it larger */
+    font-size: 1em; /* Increase font size for readability */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #0066cc; /* Color for predicted category result */
+}
