@@ -55,7 +55,8 @@ The model has been trained and validated on a labeled dataset of brain images to
 
 The model training involved the following steps:
 
-1. **Data Collection**: Collect MRI or CT scans of brain images labeled by Alzheimer’s stage.
+1. **Data Collection**: Collect MRI or CT scans of brain images labeled by Alzheimer’s stage. 
+   #### Dataset Source: - **Kaggle Dataset**: [Alzheimer's Disease Dataset on Kaggle](https://www.kaggle.com/datasets/yasserhessein/dataset-alzheimer)
 2. **Data Preprocessing**: Resize images, apply image augmentation, and normalize pixel values.
 3. **Model Architecture Design**: Configure layers, including convolution, pooling, and fully connected layers.
 4. **Training**: Train the model on labeled data, optimizing weights to minimize error.
