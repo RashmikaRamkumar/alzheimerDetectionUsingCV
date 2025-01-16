@@ -18,11 +18,7 @@ const UploadForm = () => {
         formData.append('image', image);
 
         try {
-<<<<<<< HEAD
             const response = await axios.post('http://127.0.0.1:5000/predict', formData, {
-=======
-            const response = await axios.post('https://alzheimerdetectionusingcv.onrender.com/predict', formData, {
->>>>>>> 68a42c1829d3f79d1f5e287ad47404899812fd3d
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
